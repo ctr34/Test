@@ -3,3 +3,5 @@ Zhiyan Zhang
 zhiyan@student.chalmers.se
 
 ct
+
+Git has a mutable index called stage.
