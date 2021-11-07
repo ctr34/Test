@@ -30,6 +30,8 @@ jobs:
         run: |
           pwd
           ls $PWD
+          echo "---"
+          ${{ github.repository }}
         
 
       # Runs a set of commands using the runners shell
