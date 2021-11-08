@@ -27,7 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cat ${{ github.workspace }}/win.txt
+        run: cat $GITHUB_WORKSPACE/win.txt
+        #cat ${{ github.workspace }}/win.txt
         
 
       # Runs a set of commands using the runners shell
