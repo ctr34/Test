@@ -31,7 +31,7 @@ jobs:
           pwd
           ls $PWD
           echo "---"
-          ${{ github.workspace }}
+          echo ${{ github.workspace }}
         
 
       # Runs a set of commands using the runners shell
